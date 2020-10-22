@@ -52,6 +52,12 @@ The data is contained in three files:
 ## There's also a Medium [link](https://norah-mohammed-sa.medium.com/starbucks-capstone-challenge-4988309f8457) with the project summary.
 it contains a simple summary and insights.
 
+## Models 
+- Logistic Regression
+- Random forest
+- decision tree
+
+
 ## Licensing, Authors, Acknowledgements, etc.
 This project was authored by Norah Alhumoud. Thanks to Starbucks for the dataset, and to Udacity for bringing the opportunity to work with it.
 
