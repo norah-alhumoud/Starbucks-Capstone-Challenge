@@ -35,18 +35,18 @@ Here is the schema and explanation of each variable in the files:
 
 #### profile.json
 
-age (int) - age of the customer
-became_member_on (int) - date when customer created an app account
-gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
-id (str) - customer id
-income (float) - customer's income
+- age (int) - age of the customer
+- became_member_on (int) - date when customer created an app account
+- gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
+- id (str) - customer id
+- income (float) - customer's income
 
 #### transcript.json
 
-event (str) - record description (ie transaction, offer received, offer viewed, etc.)
-person (str) - customer id
-time (int) - time in hours since start of test. The data begins at time t=0
-value - (dict of strings) - either an offer id or transaction amount depending on the record
+- event (str) - record description (ie transaction, offer received, offer viewed, etc.)
+- person (str) - customer id
+- time (int) - time in hours since start of test. The data begins at time t=0
+- value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 ## There's also a Medium [link](https://norah-mohammed-sa.medium.com/starbucks-capstone-challenge-4988309f8457) with the project summary.
 it contains a simple summary and insights.
