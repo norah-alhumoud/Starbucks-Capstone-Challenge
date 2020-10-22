@@ -49,7 +49,7 @@ time (int) - time in hours since start of test. The data begins at time t=0
 value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 ## There's also a Medium [link](https://norah-mohammed-sa.medium.com/starbucks-capstone-challenge-4988309f8457) with the project summary.
-
+it contains a simple summary and insights.
 
 ## Licensing, Authors, Acknowledgements, etc.
 This project was authored by Norah Alhumoud. Thanks to Starbucks for the dataset, and to Udacity for bringing the opportunity to work with it.
