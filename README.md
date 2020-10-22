@@ -26,12 +26,12 @@ Here is the schema and explanation of each variable in the files:
 
 #### portfolio.json
 
-id (string) - offer id
-offer_type (string) - type of offer ie BOGO, discount, informational
-difficulty (int) - minimum required spend to complete an offer
-reward (int) - reward given for completing an offer
-duration (int) - time for offer to be open, in days
-channels (list of strings)
+- id (string) - offer id
+- offer_type (string) - type of offer ie BOGO, discount, informational
+- difficulty (int) - minimum required spend to complete an offer
+- reward (int) - reward given for completing an offer
+- duration (int) - time for offer to be open, in days
+- channels (list of strings)
 
 #### profile.json
 
