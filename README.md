@@ -14,16 +14,17 @@ Every offer has a validity period before the offer expires. As an example, a BOG
 
 ## Aim
 predict if offer will respond by the customer or not. if customer respond then model will choose discount or BOGO.
+We did explotery data analysit, then built models by using different algorithms ( Logistic Regression, Random forest and decision tree).
 
 ## Datasets
 The data is contained in three files:
 
-portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
-profile.json - demographic data for each customer
-transcript.json - records for transactions, offers received, offers viewed, and offers completed
+ portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
+ profile.json - demographic data for each customer
+ transcript.json - records for transactions, offers received, offers viewed, and offers completed
 Here is the schema and explanation of each variable in the files:
 
-portfolio.json
+#### portfolio.json
 
 id (string) - offer id
 offer_type (string) - type of offer ie BOGO, discount, informational
@@ -31,14 +32,16 @@ difficulty (int) - minimum required spend to complete an offer
 reward (int) - reward given for completing an offer
 duration (int) - time for offer to be open, in days
 channels (list of strings)
-profile.json
+
+#### profile.json
 
 age (int) - age of the customer
 became_member_on (int) - date when customer created an app account
 gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
 id (str) - customer id
 income (float) - customer's income
-transcript.json
+
+#### transcript.json
 
 event (str) - record description (ie transaction, offer received, offer viewed, etc.)
 person (str) - customer id
