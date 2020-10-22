@@ -1,7 +1,9 @@
 # Starbucks-Capstone-Challenge
 Udacity, DSND
 
-# Context
+![alt text](https://images.techhive.com/images/article/2015/10/starbucks_cto-100621004-large.jpg)
+
+## Context
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
 
 Not all users receive the same offer, and that is the challenge to solve with this data set.
@@ -10,10 +12,10 @@ The task is to combine transaction, demographic and offer data to determine whic
 
 Every offer has a validity period before the offer expires. As an example, a BOGO offer might be valid for only 5 days. In the data set that informational offers have a validity period even though these ads are merely providing information about a product; for example, if an informational offer has 7 days of validity, you can assume the customer is feeling the influence of the offer for 7 days after receiving the advertisement.
 
-# Aim
+## Aim
 predict if offer will respond by the customer or not. if customer respond then model will choose discount or BOGO.
 
-# Datasets
+## Datasets
 The data is contained in three files:
 
 portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
@@ -43,10 +45,10 @@ person (str) - customer id
 time (int) - time in hours since start of test. The data begins at time t=0
 value - (dict of strings) - either an offer id or transaction amount depending on the record
 
-# There's also a Medium link with the project summary.
-https://norah-mohammed-sa.medium.com/starbucks-capstone-challenge-4988309f8457
+## There's also a Medium [link](https://norah-mohammed-sa.medium.com/starbucks-capstone-challenge-4988309f8457) with the project summary.
 
-Licensing, Authors, Acknowledgements, etc.
+
+## Licensing, Authors, Acknowledgements, etc.
 This project was authored by Norah Alhumoud. Thanks to Starbucks for the dataset, and to Udacity for bringing the opportunity to work with it.
 
 
